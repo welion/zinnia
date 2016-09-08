@@ -17,9 +17,9 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
 :q
 :w
-:wq
 :W
 :Wq
 :%s/demo/blog/g
@@ -51,18 +51,20 @@ $
 	g
 
 # File marks:
-'0  136  30  ~/code/blog/settings.py
-'1  225  0  ~/logs/gunicorn_supervisor.log
-'2  140  0  ~/logs/gunicorn_supervisor.log
-'3  1  34  ~/.profile
-'4  65  5  ~/code/blog/settings.py
-'5  44  22  ~/code/blog/settings.py
-'6  1  0  /etc/supervisor/conf.d/zinnia.conf
-'7  1  0  /etc/supervisor/supervisord.conf
-'8  1  0  ~/logs/gunicorn_supervisor.log
-'9  2  30  ~/bin/gunicorn_start
+'0  1  4  ~/.gitignore
+'1  1  0  ~/.gitconfig
+'2  136  30  ~/code/blog/settings.py
+'3  225  0  ~/logs/gunicorn_supervisor.log
+'4  140  0  ~/logs/gunicorn_supervisor.log
+'5  1  34  ~/.profile
+'6  65  5  ~/code/blog/settings.py
+'7  44  22  ~/code/blog/settings.py
+'8  1  0  /etc/supervisor/conf.d/zinnia.conf
+'9  1  0  /etc/supervisor/supervisord.conf
 
 # Jumplist (newest first):
+-'  1  4  ~/.gitignore
+-'  1  0  ~/.gitconfig
 -'  136  30  ~/code/blog/settings.py
 -'  1  0  ~/code/blog/settings.py
 -'  225  0  ~/logs/gunicorn_supervisor.log
@@ -159,10 +161,17 @@ $
 -'  1  0  ~/code/zinnia/bin/gunicorn_start
 -'  10  0  ~/code/zinnia/bin/gunicorn_start
 -'  113  15  ~/code/blog/blog/settings.py
--'  1  1  ~/code/blog/blog
--'  1  0  ~/code/zinnia/bin/gunicorn_start
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/.gitconfig
+	"	1	0
 
 > ~/code/blog/settings.py
 	"	136	30
