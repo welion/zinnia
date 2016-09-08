@@ -1,0 +1,419 @@
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /webapps/zinnia/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+Starting zinnia_blog as zinnia
+[2016-09-07 21:55:47 +0000] [15568] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0xb6c446f4>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0xb6c445a4>
+  pre_fork: <function pre_fork at 0xb6c4464c>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 999
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: zinnia_blog
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0xb6c444fc>
+  pre_exec: <function pre_exec at 0xb6c44994>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0xb6c4479c>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0xb6c44ca4>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0xb6c44a3c>
+  post_request: <function post_request at 0xb6c44aac>
+  user: 999
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0xb6c44844>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0xb6c44b54>
+  chdir: /webapps/zinnia/code
+  paste: None
+  default_proc_name: blog.wsgi:application
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0xb6c44454>
+  worker_abort: <function worker_abort at 0xb6c448ec>
+  bind: ['unix:/webapps/zinnia/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0xb6c44bfc>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-09-07 21:55:47 +0000] [15568] [INFO] Starting gunicorn 19.6.0
+[2016-09-07 21:55:47 +0000] [15568] [DEBUG] Arbiter booted
+[2016-09-07 21:55:47 +0000] [15568] [INFO] Listening at: unix:/webapps/zinnia/run/gunicorn.sock (15568)
+[2016-09-07 21:55:47 +0000] [15568] [INFO] Using worker: sync
+[2016-09-07 21:55:47 +0000] [15578] [INFO] Booting worker with pid: 15578
+[2016-09-07 21:55:47 +0000] [15579] [INFO] Booting worker with pid: 15579
+[2016-09-07 21:55:47 +0000] [15580] [INFO] Booting worker with pid: 15580
+[2016-09-07 21:55:47 +0000] [15568] [DEBUG] 3 workers
+[2016-09-07 21:56:36 +0000] [15580] [DEBUG] GET /
+[2016-09-07 21:56:36 +0000] [15579] [DEBUG] GET /favicon.ico
+[2016-09-07 21:56:44 +0000] [15580] [DEBUG] GET /weblog
+[2016-09-07 21:56:44 +0000] [15578] [DEBUG] GET /weblog/
+/webapps/zinnia/local/lib/python2.7/site-packages/zinnia/markups.py:40: RuntimeWarning: The Python markdown library isn't installed.
+  RuntimeWarning)
+
+[2016-09-07 21:56:48 +0000] [15580] [DEBUG] GET /weblog/
+/webapps/zinnia/local/lib/python2.7/site-packages/zinnia/markups.py:40: RuntimeWarning: The Python markdown library isn't installed.
+  RuntimeWarning)
+
+[2016-09-07 21:56:50 +0000] [15578] [DEBUG] GET /weblog/
+[2016-09-07 21:57:00 +0000] [15580] [DEBUG] GET /weblog/
+[2016-09-07 21:57:02 +0000] [15579] [DEBUG] GET /weblog/
+/webapps/zinnia/local/lib/python2.7/site-packages/zinnia/markups.py:40: RuntimeWarning: The Python markdown library isn't installed.
+  RuntimeWarning)
+
+[2016-09-07 21:57:08 +0000] [15580] [DEBUG] GET /admin
+[2016-09-07 21:57:08 +0000] [15578] [DEBUG] GET /admin/
+[2016-09-07 21:57:33 +0000] [15568] [INFO] Handling signal: term
+[2016-09-07 21:57:33 +0000] [15579] [INFO] Worker exiting (pid: 15579)
+[2016-09-07 21:57:33 +0000] [15578] [INFO] Worker exiting (pid: 15578)
+[2016-09-07 21:57:33 +0000] [15580] [INFO] Worker exiting (pid: 15580)
+[2016-09-07 21:57:33 +0000] [15568] [INFO] Shutting down: Master
+Starting zinnia_blog as zinnia
+[2016-09-07 21:59:13 +0000] [15701] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0xb6d126f4>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0xb6d125a4>
+  pre_fork: <function pre_fork at 0xb6d1264c>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 999
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: zinnia_blog
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0xb6d124fc>
+  pre_exec: <function pre_exec at 0xb6d12994>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0xb6d1279c>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0xb6d12ca4>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0xb6d12a3c>
+  post_request: <function post_request at 0xb6d12aac>
+  user: 999
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0xb6d12844>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0xb6d12b54>
+  chdir: /webapps/zinnia/code
+  paste: None
+  default_proc_name: blog.wsgi:application
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0xb6d12454>
+  worker_abort: <function worker_abort at 0xb6d128ec>
+  bind: ['unix:/webapps/zinnia/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0xb6d12bfc>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-09-07 21:59:13 +0000] [15701] [INFO] Starting gunicorn 19.6.0
+[2016-09-07 21:59:13 +0000] [15701] [DEBUG] Arbiter booted
+[2016-09-07 21:59:13 +0000] [15701] [INFO] Listening at: unix:/webapps/zinnia/run/gunicorn.sock (15701)
+[2016-09-07 21:59:13 +0000] [15701] [INFO] Using worker: sync
+[2016-09-07 21:59:13 +0000] [15710] [INFO] Booting worker with pid: 15710
+[2016-09-07 21:59:13 +0000] [15711] [INFO] Booting worker with pid: 15711
+[2016-09-07 21:59:13 +0000] [15714] [INFO] Booting worker with pid: 15714
+[2016-09-07 21:59:13 +0000] [15701] [DEBUG] 3 workers
+[2016-09-07 21:59:20 +0000] [15711] [DEBUG] GET /weblog/
+[2016-09-07 22:01:04 +0000] [15701] [INFO] Handling signal: term
+[2016-09-07 22:01:04 +0000] [15714] [INFO] Worker exiting (pid: 15714)
+[2016-09-07 22:01:04 +0000] [15710] [INFO] Worker exiting (pid: 15710)
+[2016-09-07 22:01:04 +0000] [15711] [INFO] Worker exiting (pid: 15711)
+[2016-09-07 22:01:04 +0000] [15701] [INFO] Shutting down: Master
+Starting zinnia_blog as zinnia
+[2016-09-07 22:23:36 +0000] [16534] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0xb6c766f4>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0xb6c765a4>
+  pre_fork: <function pre_fork at 0xb6c7664c>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 999
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: zinnia_blog
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0xb6c764fc>
+  pre_exec: <function pre_exec at 0xb6c76994>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0xb6c7679c>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0xb6c76ca4>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0xb6c76a3c>
+  post_request: <function post_request at 0xb6c76aac>
+  user: 999
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0xb6c76844>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0xb6c76b54>
+  chdir: /webapps/zinnia/code
+  paste: None
+  default_proc_name: blog.wsgi:application
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0xb6c76454>
+  worker_abort: <function worker_abort at 0xb6c768ec>
+  bind: ['unix:/webapps/zinnia/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0xb6c76bfc>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-09-07 22:23:36 +0000] [16534] [INFO] Starting gunicorn 19.6.0
+[2016-09-07 22:23:36 +0000] [16534] [DEBUG] Arbiter booted
+[2016-09-07 22:23:36 +0000] [16534] [INFO] Listening at: unix:/webapps/zinnia/run/gunicorn.sock (16534)
+[2016-09-07 22:23:36 +0000] [16534] [INFO] Using worker: sync
+[2016-09-07 22:23:36 +0000] [16543] [INFO] Booting worker with pid: 16543
+[2016-09-07 22:23:36 +0000] [16544] [INFO] Booting worker with pid: 16544
+[2016-09-07 22:23:36 +0000] [16546] [INFO] Booting worker with pid: 16546
+[2016-09-07 22:23:36 +0000] [16534] [DEBUG] 3 workers
+[2016-09-07 22:23:55 +0000] [16543] [DEBUG] GET /weblog/
+[2016-09-07 22:24:11 +0000] [16546] [DEBUG] GET /admin/
+[2016-09-07 22:24:28 +0000] [16544] [DEBUG] GET /admin/logout/
+[2016-09-07 22:24:30 +0000] [16546] [DEBUG] GET /admin/
+[2016-09-07 22:24:30 +0000] [16543] [DEBUG] GET /admin/login/
+[2016-09-07 23:20:39 +0000] [16534] [INFO] Handling signal: term
+[2016-09-07 23:20:39 +0000] [16544] [INFO] Worker exiting (pid: 16544)
+[2016-09-07 23:20:39 +0000] [16546] [INFO] Worker exiting (pid: 16546)
+[2016-09-07 23:20:39 +0000] [16543] [INFO] Worker exiting (pid: 16543)
+[2016-09-07 23:20:39 +0000] [16534] [INFO] Shutting down: Master
+Starting zinnia_blog as zinnia
+[2016-09-07 23:20:40 +0000] [17978] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0xb6ca36f4>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0xb6ca35a4>
+  pre_fork: <function pre_fork at 0xb6ca364c>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 999
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: zinnia_blog
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0xb6ca34fc>
+  pre_exec: <function pre_exec at 0xb6ca3994>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0xb6ca379c>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0xb6ca3ca4>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0xb6ca3a3c>
+  post_request: <function post_request at 0xb6ca3aac>
+  user: 999
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0xb6ca3844>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0xb6ca3b54>
+  chdir: /webapps/zinnia/code
+  paste: None
+  default_proc_name: blog.wsgi:application
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0xb6ca3454>
+  worker_abort: <function worker_abort at 0xb6ca38ec>
+  bind: ['unix:/webapps/zinnia/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0xb6ca3bfc>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-09-07 23:20:40 +0000] [17978] [INFO] Starting gunicorn 19.6.0
+[2016-09-07 23:20:40 +0000] [17978] [DEBUG] Arbiter booted
+[2016-09-07 23:20:40 +0000] [17978] [INFO] Listening at: unix:/webapps/zinnia/run/gunicorn.sock (17978)
+[2016-09-07 23:20:40 +0000] [17978] [INFO] Using worker: sync
+[2016-09-07 23:20:40 +0000] [17987] [INFO] Booting worker with pid: 17987
+[2016-09-07 23:20:41 +0000] [17988] [INFO] Booting worker with pid: 17988
+[2016-09-07 23:20:41 +0000] [17989] [INFO] Booting worker with pid: 17989
+[2016-09-07 23:20:41 +0000] [17978] [DEBUG] 3 workers
+[2016-09-07 23:20:59 +0000] [17987] [DEBUG] GET /weblog
+[2016-09-07 23:20:59 +0000] [17989] [DEBUG] GET /weblog/
+[2016-09-07 23:21:28 +0000] [17987] [DEBUG] GET /weblog
+[2016-09-07 23:21:28 +0000] [17988] [DEBUG] GET /weblog/
+[2016-09-07 23:21:29 +0000] [17987] [DEBUG] GET /weblog/
+[2016-09-08 06:41:48 +0000] [17989] [DEBUG] GET /
+[2016-09-08 09:10:23 +0000] [17978] [INFO] Handling signal: term
+[2016-09-08 09:10:23 +0000] [17987] [INFO] Worker exiting (pid: 17987)
+[2016-09-08 09:10:23 +0000] [17989] [INFO] Worker exiting (pid: 17989)
+[2016-09-08 09:10:23 +0000] [17988] [INFO] Worker exiting (pid: 17988)
+[2016-09-08 09:10:23 +0000] [17978] [INFO] Shutting down: Master
